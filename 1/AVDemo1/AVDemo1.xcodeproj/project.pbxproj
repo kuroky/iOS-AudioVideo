@@ -14,6 +14,8 @@
 		5B450B0F27D0A9E200E83883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B450B0E27D0A9E200E83883 /* Assets.xcassets */; };
 		5B450B1227D0A9E200E83883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B450B1027D0A9E200E83883 /* LaunchScreen.storyboard */; };
 		5B450B1527D0A9E200E83883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B450B1427D0A9E200E83883 /* main.m */; };
+		5B450B1D27D0AB6800E83883 /* KFAudioConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B450B1C27D0AB6800E83883 /* KFAudioConfig.m */; };
+		5B450B2027D0AC2500E83883 /* KFAudioCature.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B450B1F27D0AC2500E83883 /* KFAudioCature.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		5B450B1127D0A9E200E83883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B450B1327D0A9E200E83883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B450B1427D0A9E200E83883 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B450B1B27D0AB6800E83883 /* KFAudioConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAudioConfig.h; sourceTree = "<group>"; };
+		5B450B1C27D0AB6800E83883 /* KFAudioConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAudioConfig.m; sourceTree = "<group>"; };
+		5B450B1E27D0AC2500E83883 /* KFAudioCature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAudioCature.h; sourceTree = "<group>"; };
+		5B450B1F27D0AC2500E83883 /* KFAudioCature.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAudioCature.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				5B450B0627D0A9E000E83883 /* SceneDelegate.m */,
 				5B450B0827D0A9E000E83883 /* ViewController.h */,
 				5B450B0927D0A9E000E83883 /* ViewController.m */,
+				5B450B1B27D0AB6800E83883 /* KFAudioConfig.h */,
+				5B450B1C27D0AB6800E83883 /* KFAudioConfig.m */,
+				5B450B1E27D0AC2500E83883 /* KFAudioCature.h */,
+				5B450B1F27D0AC2500E83883 /* KFAudioCature.m */,
 				5B450B0B27D0A9E000E83883 /* Main.storyboard */,
 				5B450B0E27D0A9E200E83883 /* Assets.xcassets */,
 				5B450B1027D0A9E200E83883 /* LaunchScreen.storyboard */,
@@ -147,9 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B450B0A27D0A9E000E83883 /* ViewController.m in Sources */,
+				5B450B1D27D0AB6800E83883 /* KFAudioConfig.m in Sources */,
 				5B450B0427D0A9E000E83883 /* AppDelegate.m in Sources */,
 				5B450B1527D0A9E200E83883 /* main.m in Sources */,
 				5B450B0727D0A9E000E83883 /* SceneDelegate.m in Sources */,
+				5B450B2027D0AC2500E83883 /* KFAudioCature.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +309,8 @@
 				DEVELOPMENT_TEAM = NY7T2K85AJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AVDemo1/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "照相机";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "麦克风";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -324,6 +338,8 @@
 				DEVELOPMENT_TEAM = NY7T2K85AJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AVDemo1/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "照相机";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "麦克风";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
